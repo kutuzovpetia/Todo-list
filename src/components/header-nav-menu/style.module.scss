@@ -1,0 +1,72 @@
+.wrapper{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #242424;
+    padding: 10px 15px;
+    z-index: 1000;
+    @media (max-width: 400px) { padding: 10px 4px;}
+    @media (width: 714px) { height: 150px;}
+    @media (max-width: 545px) {
+        flex-wrap: nowrap;
+        flex-direction: column;
+        height: 150px;
+    }
+
+    .btnCreateList{
+        margin-bottom: 5px;
+    }
+
+    .rightControls{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        min-width: 180px;
+        
+        button{
+            margin-right: 5px;
+        }
+
+        .offSearch{
+            width: 0;
+            height: 39px;
+            animation: off 0.3s ease-in-out;
+            display: none;
+        }
+
+        .onSearch{
+            width: 200px;
+            height: 39px;
+            animation: on 0.3s ease-in-out;
+            @keyframes on {
+                from{ width: 0px;}
+                to{ width: 200px;}
+            }
+        }
+
+        @media (max-width: 725px) {
+            width: 100%;
+            margin-top: 5px;
+        }
+
+        @media (max-width: 714px) { width: 100%;}
+    }
+
+    .centerControls{
+        display: flex;
+        justify-content: space-between;
+        min-width: 370px;
+        
+        @media (max-width: 545px) { width: 100%;}
+    }
+
+   
+}
+
+
+
+

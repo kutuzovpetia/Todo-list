@@ -1,0 +1,40 @@
+.modalWrapper{
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    color: white;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(14, 13, 13, 0.5);
+
+    .modal{
+        position: absolute;
+        top:300px;
+        background-color: #343A40;
+        height: 150px;
+        padding: 20px;
+        border-radius: 8px;
+        animation: anim .5s ease;
+        width: 300px;
+
+        h4{
+         text-align: center;
+        }
+
+        input{
+            width: 100%;
+            margin-bottom: 10px;
+        }
+        .controls{
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+}
+
+@keyframes anim {
+    from{top:0;}
+    to{top: 300px;}
+}

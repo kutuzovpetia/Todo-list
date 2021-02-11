@@ -1,0 +1,64 @@
+.priorityBlue {
+    border-left: 5px solid rgb(0, 98, 255);
+}
+
+.priorityOrange {
+    border-left: 5px solid rgb(255, 145, 0);
+}
+
+.priorityRed {
+    border-left: 5px solid rgb(246, 0, 0);
+}
+
+.dropDown {
+    button {
+        width: 50%;
+    }
+}
+
+.btnDelete {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.doneBtn {
+    height: 53px;
+    border-radius: 5px;
+}
+
+.check {
+    font-size: 45px;
+    color: #666562;
+}
+
+.checked{
+    font-size: 45px;
+    color: #2b6d00;
+}
+
+.title{
+ color: #666562;
+ font-weight: 800;
+}
+
+.titleChecked{
+ text-decoration: line-through;
+ color: #2b6d00;
+
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    textarea{
+        width: 100%;
+    }
+    .inputDate{
+        @media (max-width: 504px) {
+            width: 100%;
+            margin-top: 5px;
+        }
+    }
+}
+

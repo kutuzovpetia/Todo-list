@@ -1,0 +1,27 @@
+.card{
+    margin: 10px;
+    width: 23rem;
+    height: 335px;
+    cursor: pointer;
+
+    .title{
+       
+    }
+    .titleChecked{
+        text-decoration: line-through;
+        color: #2A6E11;
+    }
+
+    .itemRed{
+        border-left: 4px solid red;
+    }
+
+    .itemBlue{
+        border-left: 4px solid blue;
+    }
+
+    .itemOrang{
+        border-left: 4px solid orange;
+    }
+}
+
